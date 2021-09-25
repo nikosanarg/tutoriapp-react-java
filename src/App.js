@@ -2,22 +2,32 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const collabs = ["MiduDev", "EdYoda", "UTN FRLP", "Santander"];
+  const list_collabs = collabs.map(c => <li>{ c }</li>)
+
+  const alumno = {
+    nombre: "Nicolas",
+    edad: 26,
+    pais: "AR"
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App">
+      <h1>App en React</h1>
+
+        <p>Esta es mi primera app en React</p>
+
+        <ul>
+          <li>Nombre: { alumno.nombre }</li>
+          <li>Edad: { alumno.edad } años</li>
+          <li>Pais: { alumno.pais }</li>
+        </ul>
+
+        <p>Gracias a los tutoriales de:</p>
+
+        <ul>{ list_collabs }</ul>
+        
     </div>
   );
 }
