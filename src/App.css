@@ -1,24 +1,14 @@
 .App {
-  padding: 1rem 10%;
+  padding: 0;
   background-color: lightgrey;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
 
-.card {
-  flex-grow: 1;
-  min-width: 200px;
-  width: 50px;
-  text-align: center;
-  padding: 40px 0;
-
-  color: blue;
-  background-color: lightyellow;
-  border-radius: 10px;
+.body-container {
+  width: 90%;
+  background-color: white;
+  margin: 0;
+  padding: 1% 5%;
 }
 
 ul {

@@ -1,0 +1,19 @@
+.header {
+    padding: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.295);
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(65, 65, 141);
+}
+  
+.header h1 {
+    padding-left: 5%;
+}
+  
+.header h3 {
+    text-align: center;
+    padding-left: 8px;
+    position: relative;
+    top: 16px;
+}
