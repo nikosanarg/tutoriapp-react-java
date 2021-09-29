@@ -22,9 +22,9 @@ class Componente extends Component {
 		return true // true por defecto permite re-renderizar, false no
 	}
 
-	getSnapshotBeforeUpdate(prevProps, prevState) {
+	/*getSnapshotBeforeUpdate(prevProps, prevState) {
 		console.log(prevProps, prevState)
-	}
+	}*/
 	
 	render() {
 		return(
